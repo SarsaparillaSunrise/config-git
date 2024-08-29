@@ -8,6 +8,10 @@
   email = 149747120+SarsaparillaSunrise@users.noreply.github.com
   name = SarsaparillaSunrise
 
+[diff]
+  algorithm = histogram
+  tool = vimdiff
+
 [mergetool "vimdiff"]
   cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED
 
