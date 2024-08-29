@@ -7,6 +7,10 @@
 [user]
   email = 149747120+SarsaparillaSunrise@users.noreply.github.com
   name = SarsaparillaSunrise
+  signingkey = 60D4D6B3B1EC4F6F
+
+[commit]
+  gpgsign = true
 
 [diff]
   algorithm = histogram
@@ -28,6 +32,9 @@
 
 [rebase]
   autostash = true
+
+[tag]
+  gpgsign = true
 
 [alias]
   l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
