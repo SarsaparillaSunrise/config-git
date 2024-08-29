@@ -8,6 +8,12 @@
   email = 149747120+SarsaparillaSunrise@users.noreply.github.com
   name = SarsaparillaSunrise
 
+[merge]
+  conflictstyle = diff3
+  defaultToUpstream = true
+  log = 50
+  tool = vimdiff
+
 [push]
   autoSetupRemote = true
   default = simple
