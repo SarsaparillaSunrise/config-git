@@ -8,6 +8,9 @@
   email = 149747120+SarsaparillaSunrise@users.noreply.github.com
   name = SarsaparillaSunrise
 
+[mergetool "vimdiff"]
+  cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED
+
 [merge]
   conflictstyle = diff3
   defaultToUpstream = true
