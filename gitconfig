@@ -16,14 +16,14 @@
   algorithm = histogram
   tool = vimdiff
 
-[mergetool "vimdiff"]
-  cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED
-
 [merge]
   conflictstyle = diff3
   defaultToUpstream = true
   log = 50
   tool = vimdiff
+
+[mergetool "vimdiff"]
+  cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED
 
 [push]
   autoSetupRemote = true
