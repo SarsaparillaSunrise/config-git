@@ -1,3 +1,9 @@
+[init]
+  defaultBranch = master
+
+[core]
+  pager = less -F -X
+
 [user]
   email = 149747120+SarsaparillaSunrise@users.noreply.github.com
   name = SarsaparillaSunrise
