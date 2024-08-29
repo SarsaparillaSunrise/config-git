@@ -9,6 +9,9 @@
   name = SarsaparillaSunrise
   signingkey = 60D4D6B3B1EC4F6F
 
+[help]
+  autocorrect = -1
+
 [commit]
   gpgsign = true
 
