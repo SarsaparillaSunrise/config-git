@@ -6,5 +6,5 @@ Global `.gitconfig`
 Installation
 ------------
 
-    git clone git@github.com:SarsaparillaSunrise/git-config.git ~/.config/git
-    ln -s ~/.config/git/gitconfig ~/.gitconfig   
+    git clone git@github.com:SarsaparillaSunrise/config-git.git ~/.config/git
+    ln -s ~/.config/git/gitconfig ~/.gitconfig
