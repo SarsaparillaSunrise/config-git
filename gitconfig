@@ -17,7 +17,7 @@
 
 [diff]
   algorithm = histogram
-  tool = vimdiff
+  tool = kdiff3
 
 [merge]
   conflictstyle = diff3
